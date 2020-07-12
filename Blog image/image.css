@@ -1,0 +1,17 @@
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+
+
+h1{
+    font-family: Bangers;
+    margin-left: 1.66%;
+    font-size: 44px;
+    text-transform: uppercase;
+    border-bottom: gray 1px solid;
+    width: 30%;
+    padding-bottom: 25px;
+}

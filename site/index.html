@@ -4,10 +4,58 @@
 	<title>Hello World</title>
 </head>
 <body>
-<h1>Hello coursera</h1>
+<h1>Hello Stevn</h1>
 <h2>Its a great course</h2>
-<form action="">
-	<input type="text" placeholder="Email"/>
+="submit">
+</form> -->
+
+<h1>Register</h1>
+<form>
+	<label for="name">First Name</label>
+	<input type="text" name="name" id="name" >
+	<label for="lname">Last Name</label>
+	<input type="text" name="lname" id="lname" >
+	<div>
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="gender" value="male">
+		<label for="female">Female</label>
+		<input type="radio" id="female" name="gender" value="female" >
+		<label for="other">Other</label>
+		<input type="radio" id="other" name="gender" value="other" >
+	</div>
+    <div>
+	  <label for="email">Email</label>
+	  <input type="email" name="email" id="email">
+	  <label for="passwd">Password</label>
+	  <input type="password" name="password" id="passwd" maxlength="10" minlength="5">
+    </div>
+	<label>Birthday
+		<select name="month">
+			<option value="Enero">Enero</option>
+			<option value="Febrero">Febrero</option>
+			<option value="Marzo">Marzo</option>
+
+		</select>
+		<select name="day">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+
+		</select>
+		<select name="year">
+			<option value="1996">1996</option>
+			<option value="1997">1997</option>
+			<option value="1998">1998</option>
+
+		</select>
+	</label>
+	<p>I agree to the terms and condiitions <span><input type="checkbox"></span></p>
+	<button>Register</button>
+
+
+	
+
 </form>
 </body>
 </html>
